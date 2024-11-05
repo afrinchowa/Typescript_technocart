@@ -14,6 +14,7 @@
   // car ase kina / bike ase kina / ship ase kina
   type CheckVehicle<T> = T extends keyof Seikh ? true : false;
   type HasTractror = CheckVehicle<"tractor">;
+  type HasPlane = CheckVehicle<"plane">;
 
   //
 }
